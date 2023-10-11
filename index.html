@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Road Trip Planner</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header>
+            <h1>Road Trip Planner</h1>
+        </header>
+
+        <!-- Form Section -->
+        <section id="trip-form">
+            <form action="">
+                <label for="start">Starting Point:</label>
+                <input type="text" id="start" name="start" >
+                </br>
+                <label for="destination">Destination:</label>
+                <input type="text" name="destination" id="destination">
+                 </br>
+                <label for="points-of-interest">Points of Interest:</label>
+                <input type="text" id="points-of-interest" name="points-of-interest">
+
+                <button type="submit">Plan Trip</button>
+            </form>
+        </section>
+        
+        <div id="trip-results">
+            <!-- Results will be displayed here -->
+        </div>
+        <script src="app.js" async defer></script>
+    </body>
+</html>
